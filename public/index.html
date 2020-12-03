@@ -13,8 +13,10 @@
   </head>
   <body>
     <div class="max-w-screen-sm bg-darkblue text-white mx-auto">
-      <div class="w-full flex min-h-screen bg-cover bg-no-repeat relative">
-        <div class="absolute bottom-0" style="z-index: 1">
+      <div
+        class="w-full flex min-h-screen bg-cover bg-no-repeat relative overflow-hidden"
+      >
+        <div class="absolute right-0 left-0 bottom-0" style="z-index: 1">
           <img src="/assets/person.png" class="w-full h-auto pt-12" alt="" />
         </div>
         <div class="p-8 mt-auto z-10">
@@ -25,11 +27,12 @@
             <p class="text-xl text-white leading-normal my-4">
               enjoy the songs you like whenever and wherever
             </p>
-            <button
+            <a
+              href="list-music.html"
               class="mt-6 py-4 px-8 text-2xl text-center text-white capitalize rounded-lg bg-gradient-to-br from-pink-500 to-purple-500"
             >
               Enjoy Now
-            </button>
+            </a>
           </div>
         </div>
       </div>
