@@ -6,6 +6,9 @@ module.exports = {
       darkblue: "#1E1B2E",
       "darkblue-secondary": "#27293E",
       white: "#fff",
+      "white-100": "hsla(0,0%,100%,0.5)",
+      "white-300": "hsla(0,0%,100%,0.3)",
+      "white-500": "hsla(0,0%,100%,0.1)",
       pink: {
         500: "#D44FF0",
       },
